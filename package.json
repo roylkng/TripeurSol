@@ -1,0 +1,22 @@
+{
+  "name": "tripeur_coding_test",
+  "version": "1.0.0",
+  "description": "Calulate number of days of subscriptions for each user by thr service provider.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node lib/index.js >> logs/log",
+    "test": "mocha test/index.spec.js"
+  },
+  "author": "Rajan Kadeval",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "fs": "0.0.1-security",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
+}
