@@ -1,7 +1,8 @@
 ##Steps to Run:
 Go the the directory and execute following commands.
-For installation
-`npm install`
+For installation(nodejs is required)
+`npm i`
+`npm i -g mocha`
 For execution
 `npm start`
 For running unit test.
